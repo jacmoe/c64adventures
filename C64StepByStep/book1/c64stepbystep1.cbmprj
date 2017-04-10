@@ -4,7 +4,7 @@
 <!-- Project Target : C64 -->
 <Project>
     <Target>2</Target>
-    <Executable>c64stepbystep.prg</Executable>
+    <Executable>c64stepbystep1.prg</Executable>
     <StartAddress>2049</StartAddress>
     <FilesGlobal>False</FilesGlobal>
     <BatchMode>False</BatchMode>
@@ -12,9 +12,9 @@
     <GenToDisk>False</GenToDisk>
     <BuildToPrgFile>True</BuildToPrgFile>
     <d64Name />
-    <Comments>Commodore Step by step books</Comments>
+    <Comments>Commodore 64 Step by Step Programming - book 1</Comments>
     <Author>Jacob Moen</Author>
-    <AutoLaunchName>c64stepbystep.prg</AutoLaunchName>
+    <AutoLaunchName>c64stepbystep1.prg</AutoLaunchName>
     <Cartridge>
         <CrtBuildingCartridge>False</CrtBuildingCartridge>
         <CrtSignature>C64 CARTRIDGE</CrtSignature>
@@ -36,20 +36,6 @@
         <PostBuildCommands />
     </BuildEvents>
     <BuildList>
-        <FileName>Character_ASCII_Const.asm</FileName>
-        <FileName>Tutorial One.asm</FileName>
-        <FileName>Tutorial Three.asm</FileName>
-        <FileName>Tutorial Two.asm</FileName>
-        <FileName>Tutorial Four.asm</FileName>
-        <FileName>Tutorial Five.asm</FileName>
-        <FileName>Tutorial Eight.asm</FileName>
-        <FileName>Tutorial Nine.asm</FileName>
-        <FileName>Tutorial Routines.asm</FileName>
-        <FileName>Tutorial Ten.asm</FileName>
-        <FileName>Tutorial Eleven.asm</FileName>
-        <FileName>Tutorial Twelve.asm</FileName>
-        <FileName>absolutny.asm</FileName>
-        <FileName>Tutorial Twelve.asm</FileName>
         <FileName>1squared.bas</FileName>
         <FileName>2display.bas</FileName>
         <FileName>3calculations.bas</FileName>
@@ -86,6 +72,10 @@
         <FileName>34datatune.bas</FileName>
         <FileName>35chordsimple.bas</FileName>
         <FileName>36sheetmusic.bas</FileName>
+        <FileName>37random.bas</FileName>
+        <FileName>38cointoss.bas</FileName>
+        <FileName>39randomtest.bas</FileName>
+        <FileName>40randomgraphics.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>0</PaddingByte>
@@ -99,7 +89,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>11alphasorter.bas</Name>
@@ -110,7 +100,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>12colorchange.bas</Name>
@@ -121,7 +111,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>13cursorcontrol.bas</Name>
@@ -132,7 +122,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>14jiffyclock.bas</Name>
@@ -143,7 +133,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>15characterset.bas</Name>
@@ -154,7 +144,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>16keyboardgraphics.bas</Name>
@@ -165,7 +155,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>17rectangle.bas</Name>
@@ -176,7 +166,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>18screencolormap.bas</Name>
@@ -187,7 +177,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>19screencolormap.bas</Name>
@@ -198,7 +188,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>1squared.bas</Name>
@@ -209,7 +199,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>20bouncingball.bas</Name>
@@ -220,7 +210,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>21constellation.bas</Name>
@@ -231,7 +221,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>22telephonelist.bas</Name>
@@ -242,7 +232,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>23maze.bas</Name>
@@ -253,7 +243,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>24dataanimation.bas</Name>
@@ -264,7 +254,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>25taxrates.bas</Name>
@@ -275,7 +265,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>26singlesprite.bas</Name>
@@ -286,7 +276,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>27singlespritesimplified.bas</Name>
@@ -297,7 +287,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>28doublesprite.bas</Name>
@@ -308,7 +298,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>29siren.bas</Name>
@@ -319,7 +309,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>2display.bas</Name>
@@ -330,7 +320,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>30machinegun.bas</Name>
@@ -341,7 +331,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>31lasercannon.bas</Name>
@@ -352,7 +342,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>32bird.bas</Name>
@@ -363,7 +353,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>33engine.bas</Name>
@@ -374,7 +364,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>34datatune.bas</Name>
@@ -385,7 +375,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>35chordsimple.bas</Name>
@@ -396,7 +386,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>36sheetmusic.bas</Name>
@@ -406,7 +396,40 @@
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>True</Topmost>
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>37random.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>38cointoss.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>39randomtest.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
@@ -418,7 +441,18 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>40randomgraphics.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>True</Topmost>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>4conversions.bas</Name>
@@ -429,7 +463,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>5operator.bas</Name>
@@ -440,7 +474,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>6asciicolors.bas</Name>
@@ -451,7 +485,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>7printing.bas</Name>
@@ -462,7 +496,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>8neverending.bas</Name>
@@ -473,7 +507,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>9fornext.bas</Name>
@@ -484,7 +518,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>singlesprite.spt</Name>
