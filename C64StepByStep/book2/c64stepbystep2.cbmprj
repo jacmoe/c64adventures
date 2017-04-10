@@ -35,18 +35,7 @@
         <PreBuildCommands />
         <PostBuildCommands />
     </BuildEvents>
-    <BuildList>
-        <FileName>1stardistance.bas</FileName>
-        <FileName>2carpetcoster.bas</FileName>
-        <FileName>3bouncingball.bas</FileName>
-        <FileName>4doublebouncingball.bas</FileName>
-        <FileName>5firebase.bas</FileName>
-        <FileName>6keyboardencoder.bas</FileName>
-        <FileName>7functionkeydetect.bas</FileName>
-        <FileName>8reactiontester.bas</FileName>
-        <FileName>9andorsprites.bas</FileName>
-        <FileName>10andorcalculator.bas</FileName>
-    </BuildList>
+    <BuildList />
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>0</PaddingByte>
     <SourceFiles>
@@ -54,7 +43,7 @@
             <Name>10andorcalculator.bas</Name>
             <PrgName />
             <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
+            <IncludeInBuild>False</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
@@ -62,10 +51,76 @@
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>1stardistance.bas</Name>
+            <Name>11highresbasic.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>False</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>12highresmachinecode.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>False</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>13parallellines.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>False</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>False</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>14triangle.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>False</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>15pinandstring.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>False</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>16linemachine.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>True</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>1stardistance.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>False</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
@@ -76,7 +131,7 @@
             <Name>2carpetcoster.bas</Name>
             <PrgName />
             <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
+            <IncludeInBuild>False</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
@@ -87,7 +142,7 @@
             <Name>3bouncingball.bas</Name>
             <PrgName />
             <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
+            <IncludeInBuild>False</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
@@ -98,7 +153,7 @@
             <Name>4doublebouncingball.bas</Name>
             <PrgName />
             <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
+            <IncludeInBuild>False</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
@@ -109,7 +164,7 @@
             <Name>5firebase.bas</Name>
             <PrgName />
             <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
+            <IncludeInBuild>False</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
@@ -120,7 +175,7 @@
             <Name>6keyboardencoder.bas</Name>
             <PrgName />
             <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
+            <IncludeInBuild>False</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
@@ -131,7 +186,7 @@
             <Name>7functionkeydetect.bas</Name>
             <PrgName />
             <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
+            <IncludeInBuild>False</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
@@ -142,7 +197,7 @@
             <Name>8reactiontester.bas</Name>
             <PrgName />
             <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
+            <IncludeInBuild>False</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
@@ -153,18 +208,18 @@
             <Name>9andorsprites.bas</Name>
             <PrgName />
             <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
+            <IncludeInBuild>False</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>True</FileOpen>
+            <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>andorsprites.spt</Name>
             <PrgName />
             <FileType>7</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
+            <IncludeInBuild>False</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
