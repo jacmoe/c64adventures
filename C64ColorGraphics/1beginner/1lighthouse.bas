@@ -143,4 +143,4 @@
 5010 if a$ = " " then 6000
 5020 goto 5000
 6000 gosub 30 : rem return to text mode
-6010 end 
+6010 end

@@ -36,14 +36,14 @@
         <PostBuildCommands />
     </BuildEvents>
     <BuildList>
-        <FileName>1basics.bas</FileName>
-        <FileName>2second.bas</FileName>
+        <FileName>1lighthouse.bas</FileName>
+        <FileName>2ship.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>0</PaddingByte>
     <SourceFiles>
         <SourceFile>
-            <Name>1basics.bas</Name>
+            <Name>1lighthouse.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
@@ -51,10 +51,10 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>True</FileOpen>
+            <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>2second.bas</Name>
+            <Name>2ship.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>

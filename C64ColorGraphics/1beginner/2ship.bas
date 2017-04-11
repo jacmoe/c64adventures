@@ -1,6 +1,6 @@
 1 goto 1000
 10 rem:::::::::::zap!
-11 a = 256 : b = 2049 : c = 1200
+11 a = 256 : b = 2049 : c = 1003
 12 if peek(b + 2) + a * peek(b + 3) >= c then 15
 13 b = peek(b) + a * peek(b + 1) : on abs(b <> 0) goto 12 : end
 14 a = 256 : b = peek(251) + a * peek(252)
@@ -71,14 +71,17 @@
 107 poke 174,232 : poke 175,71 : poke 193,0 : poke 194,68
 108 sys 62954 : end
 110 rem:::::::::::draw a shape
-111 
-112 
-113 
-114 
-115 
-116 
-117 
+111 for j = 0 to nl
+112 e1 = l%(0,j) : e2 = l%(1,j)
+113 x1 = e%(0,e1) + x0 : y1 = e%(1,e1) + y0
+114 x2 = e%(0,e2) + x0 : y2 = e%(1,e2) + y0
+115 gosub 80
+116 next j
+117 return
 1000 rem:::::::::::main
-1100 gosub 20 : rem graphics
-1110 c = 14 : gosub 40 : rem colors
-1120 gosub 50 : rem background
+1010 gosub 20 : rem graphics
+5000 get a$
+5010 if a$ = " " then 6000
+5020 goto 5000
+6000 gosub 30 : rem back to text mode
+6010 end
