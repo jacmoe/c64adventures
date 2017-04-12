@@ -38,6 +38,7 @@
     <BuildList>
         <FileName>1lighthouse.bas</FileName>
         <FileName>2ship.bas</FileName>
+        <FileName>3sun.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>0</PaddingByte>
@@ -55,6 +56,17 @@
         </SourceFile>
         <SourceFile>
             <Name>2ship.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>False</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>3sun.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
