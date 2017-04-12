@@ -205,26 +205,3 @@
 5020 goto 5000
 6000 gosub 30 : rem back to text mode
 6010 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
