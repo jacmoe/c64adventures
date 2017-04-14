@@ -36,18 +36,36 @@
         <PostBuildCommands />
     </BuildEvents>
     <BuildList>
-        <FileName>1lighthouse.bas</FileName>
-        <FileName>2ship.bas</FileName>
-        <FileName>3sun.bas</FileName>
-        <FileName>4toolkit.bas</FileName>
-        <FileName>5tookitoptimized.bas</FileName>
-        <FileName>1helper.bas</FileName>
+        <FileName>3.first.bas</FileName>
+        <FileName>2checker.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
     <SourceFiles>
         <SourceFile>
             <Name>1helper.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>2checker.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>3.first.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
