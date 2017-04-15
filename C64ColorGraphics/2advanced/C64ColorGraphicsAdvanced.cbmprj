@@ -40,6 +40,7 @@
         <FileName>2checker.bas</FileName>
         <FileName>4shapes.bas</FileName>
         <FileName>5painting.bas</FileName>
+        <FileName>6building.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -90,6 +91,17 @@
         </SourceFile>
         <SourceFile>
             <Name>5painting.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>6building.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
