@@ -1,10 +1,10 @@
 0 if peek(49152) <> 128 then load "m/l",8,1
 1 goto 1000
 10 rem:::::::graphics
-11 if mu then poke 53270,216
-12 poke 53265,59
-13 poke 53272,29
-14 poke 56576,198
+11 if mu then poke 53270,216 : rem mu = multi color graphics
+12 poke 53265,59 : rem 59 for graphics, 27 for text
+13 poke 53272,29 : rem pixel pattern storage, 29 means patterns not stored in same location as colors
+14 poke 56576,198 : rem which bank used for pixel patterns and color - 198: use bank 1
 15 return
 20 rem:::::::text
 21 poke 53270,200
