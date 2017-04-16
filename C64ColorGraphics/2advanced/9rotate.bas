@@ -90,9 +90,15 @@
 152 xs = xs - (sx = 0) : ys = ys - (ys = 0)
 153 t(0,0) = xs : t(1,1) = ys
 154 goto 130
+160 rem:::::::rotate a shape
+161 gosub 120
+162 rd = ro / 360 * 2 * {pi}
+163 t(0,0) = cos(rd) : t(0,1) = sin(rd) / 1.23
+164 t(1,0) = -sin(rd) * 1.23 : t(1,1) = cos(rd)
+165 goto 130
 170 rem:::::::zap!
 171 gosub 20 : print "do you know what you are doing?" : end
-172 a = 256 : b = 2049 : c = 1003
+172 a = 256 : b = 2049 : c = 2000
 173 if peek(b + 2) + a * peek(b + 3) >= c then 176
 174 b = peek(b) + a * peek(b + 1) : on abs(b <> 0) goto 173 : end
 175 a = 256 : b = peek(251) + a * peek(252)
@@ -116,24 +122,35 @@
 1003 rem:     shape library    :
 1004 rem::::::::::::::::::::::::
 1005 dim p%(99,2), l%(99,1), r%(99,2), t(2,2), c(2,2), w(2,2)
-1008 data "square", 3, 3
-1010 data 16,8,31,8,31,23,16,23
-1012 data 0,1,1,2,2,3,3,0
-1014 data "scale shape",3,3
-1016 data -31,-4,31,-4,31,4
-1018 data -31,4
-1020 data 0,1,1,2,2,3,3,0
-2000 gosub 10 : c = 7 : gosub 30
+1008 data "moon",11,10
+1010 data 112,79,136,80,119,88
+1012 data 111,96,111,119,120,127
+1014 data 137,136,111,136,99,130
+1016 data 96,119,96,96,104,104
+1018 data 0,1,1,2,2,3,3,4
+1020 data 4,5,5,6,6,7,7,8
+1022 data 8,9,9,10,10,0
+1024 data "arrow",5,5
+1026 data -151,0,-65,-12,-80,-44
+1028 data -16,0,-80,44,-65,12
+1030 data 0,1,1,2,2,3,3,4
+1032 data 4,5,5,0
+2000 gosub 10 : c = 6 : gosub 30
 2010 poke 53280,c
-2020 se$ = "scale shape" : gosub 800
-2030 gosub 110
-2040 c = 6
-2045 for l = 1 to 10
-2050 xt = 159 : yt = 99 : gosub 140
-2060 gosub 90
-2070 gosub 110
-2080 xs = xs * 1.2 : ys = ys * 1.2 : gosub 150
-2090 next l
+2020 se$ = "arrow" : gosub 800
+2030 c = 1 : gosub 110
+2040 for l = 1 to 3
+2050 xt = m : yt = 0 : gosub 140
+2060 xt = 159 : yt = 99 : gosub 140
+2070 gosub 90
+2080 for v = 1 to 7
+2090 xt = -xt : yt = -yt : gosub 140
+3000 ro = 45 : gosub 160
+3010 xt = -xt : yt = -yt : gosub 140
+3020 gosub 90
+3030 next v
+3040 gosub 110
+3050 m = m - 24 : next l
 6000 get a$
 6010 if a$ = " " then goto 6030
 6020 goto 6000
