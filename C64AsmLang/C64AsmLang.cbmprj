@@ -35,8 +35,58 @@
         <PreBuildCommands />
         <PostBuildCommands />
     </BuildEvents>
-    <BuildList />
+    <BuildList>
+        <FileName>1machinecodedemo.bas</FileName>
+        <FileName>2abovememsiz.bas</FileName>
+        <FileName>3placeinfreeram.bas</FileName>
+        <FileName>4hexloader.bas</FileName>
+    </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>0</PaddingByte>
-    <SourceFiles />
+    <SourceFiles>
+        <SourceFile>
+            <Name>1machinecodedemo.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>2abovememsiz.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>3placeinfreeram.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>4hexloader.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>True</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+    </SourceFiles>
 </Project>
