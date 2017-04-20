@@ -39,21 +39,24 @@
         <FileName>1machinecodedemo.bas</FileName>
         <FileName>2abovememsiz.bas</FileName>
         <FileName>3placeinfreeram.bas</FileName>
-        <FileName>4hexloader.bas</FileName>
-        <FileName>5zeropageimmediate.bas</FileName>
-        <FileName>6simpleadd.bas</FileName>
-        <FileName>7singlebyteadd.bas</FileName>
-        <FileName>8doublebyteadd.bas</FileName>
-        <FileName>9simplesubtraction.bas</FileName>
-        <FileName>10doublebytesubtraction.bas</FileName>
-        <FileName>11negation.bas</FileName>
-        <FileName>12simplebcdaddition.bas</FileName>
+        <FileName>5hexloader.bas</FileName>
+        <FileName>6zeropageimmediate.bas</FileName>
+        <FileName>7simpleadd.bas</FileName>
+        <FileName>8singlebyteadd.bas</FileName>
+        <FileName>9doublebyteadd.bas</FileName>
+        <FileName>10simplesubtraction.bas</FileName>
+        <FileName>11doublebytesubtraction.bas</FileName>
+        <FileName>12negation.bas</FileName>
+        <FileName>13simplebcdaddition.bas</FileName>
+        <FileName>14absoluteaddressing.bas</FileName>
+        <FileName>4rvsonusingpokes.bas</FileName>
+        <FileName>15absoluteindexedaddressing.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>0</PaddingByte>
     <SourceFiles>
         <SourceFile>
-            <Name>10doublebytesubtraction.bas</Name>
+            <Name>10simplesubtraction.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
@@ -64,7 +67,7 @@
             <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>11negation.bas</Name>
+            <Name>11doublebytesubtraction.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
@@ -72,6 +75,50 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
+            <FileOpen>False</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>12negation.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>False</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>13simplebcdaddition.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>False</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>14absoluteaddressing.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>False</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>15absoluteindexedaddressing.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>True</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
@@ -108,7 +155,7 @@
             <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>4hexloader.bas</Name>
+            <Name>4rvsonusingpokes.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
@@ -119,7 +166,7 @@
             <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>5zeropageimmediate.bas</Name>
+            <Name>5hexloader.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
@@ -130,7 +177,7 @@
             <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>6simpleadd.bas</Name>
+            <Name>6zeropageimmediate.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
@@ -141,7 +188,7 @@
             <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>7singlebyteadd.bas</Name>
+            <Name>7simpleadd.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
@@ -152,7 +199,7 @@
             <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>8doublebyteadd.bas</Name>
+            <Name>8singlebyteadd.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
@@ -163,7 +210,7 @@
             <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>9simplesubtraction.bas</Name>
+            <Name>9doublebyteadd.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
@@ -172,17 +219,6 @@
             <Bookmarks />
             <Topmost>False</Topmost>
             <FileOpen>False</FileOpen>
-        </SourceFile>
-        <SourceFile>
-            <Name>12simplebcdaddition.bas</Name>
-            <PrgName />
-            <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
-            <Regions />
-            <Breakpoints />
-            <Bookmarks />
-            <Topmost>True</Topmost>
-            <FileOpen>True</FileOpen>
         </SourceFile>
     </SourceFiles>
 </Project>
