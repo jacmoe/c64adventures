@@ -51,6 +51,8 @@
         <FileName>14absoluteaddressing.bas</FileName>
         <FileName>4rvsonusingpokes.bas</FileName>
         <FileName>15absoluteindexedaddressing.bas</FileName>
+        <FileName>16indirectjumping.bas</FileName>
+        <FileName>17indirectaddressing.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>0</PaddingByte>
@@ -112,6 +114,28 @@
         </SourceFile>
         <SourceFile>
             <Name>15absoluteindexedaddressing.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>16indirectjumping.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>17indirectaddressing.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
