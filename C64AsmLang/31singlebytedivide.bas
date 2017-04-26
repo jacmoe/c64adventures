@@ -30,3 +30,7 @@
 300 print peek(251)
 310 print "remainder = ";
 320 print peek(253)
+330 rem This program uses the shift instructions of lines 120 and 130 as 2 byte
+340 rem shift register in which the accumulator acts as the higher byte.
+350 rem The carry produced by rol a is insignificant, it is 0, and is eroded by
+360 rem the next asl $fb procedure.
