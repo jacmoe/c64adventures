@@ -1,7 +1,15 @@
+# c64adventures [Moved to codeberg]
+
+*Achtung*: This repository will not be updated.
+
+If anything new happens to this, it will happen at -> https://codeberg.org/jacmoe/c64adventures
+
+----------------------------------------------------------------------------------
+
 # c64adventures
 Adventures into retro 8 bit Commodore 64 programming
 
-This books used in this adventure:
+The books used in this adventure:
 
 * Step by Step Programming Commodore 64
 * Commodore 64 Color Graphics - a Beginner's Guide
